@@ -26,6 +26,7 @@ class CreateCostomersTable extends Migration
           $table->string('bank_name');
           $table->string('bank_branch');
           $table->string('city');
+          $table->string('status')->default('1');
             $table->timestamps();
         });
     }

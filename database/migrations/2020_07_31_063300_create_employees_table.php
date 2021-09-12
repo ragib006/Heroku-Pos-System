@@ -24,8 +24,8 @@ class CreateEmployeesTable extends Migration
           $table->string('salary');
           $table->string('vacation');
           $table->string('nid');
-
           $table->string('city');
+          $table->string('status')->default('1');
             $table->timestamps();
         });
     }

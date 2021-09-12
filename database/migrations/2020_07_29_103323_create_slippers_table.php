@@ -28,6 +28,7 @@ class CreateSlippersTable extends Migration
           $table->string('account_number');
           $table->string('branch_name');
           $table->string('city');
+            $table->string('status')->default('1');
 
 
 

@@ -19,7 +19,7 @@ class CreateProductsTable extends Migration
           $table->integer('cat_id');
           $table->integer('slipper_id');
           $table->string('product_code');
-          $table->string('product_status');
+          $table->string('product_status')->default('1');
           $table->string('product_image');
           $table->string('product_buy_date');
           $table->string('product_url');

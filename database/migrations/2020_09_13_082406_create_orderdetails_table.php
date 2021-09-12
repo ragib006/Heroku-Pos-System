@@ -19,8 +19,8 @@ class CreateOrderdetailsTable extends Migration
           $table->string('product_id');
           $table->string('quantity');
           $table->string('unitcost');
-          $table->string('total');
-    
+          $table->string('total_order');
+
             $table->timestamps();
         });
     }

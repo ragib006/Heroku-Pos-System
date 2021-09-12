@@ -20,6 +20,7 @@ class CreateAttentdancesTable extends Migration
             $table->string('att_date');
             $table->string('att_year');
             $table->string('attentdance');
+            $table->string('att_month');
 
 
 

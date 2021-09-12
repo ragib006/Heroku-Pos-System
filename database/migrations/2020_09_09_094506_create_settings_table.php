@@ -20,6 +20,7 @@ class CreateSettingsTable extends Migration
           $table->string('company_email');
           $table->string('company_phone');
           $table->string('company_logo');
+          $table->string('company_status');
           $table->timestamps();
         });
     }
